@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url(../fonts/YoungSerif.ttf) format(truetype);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: lightsalmon;
+}
+
+div > h1 {
+    font-family: 'Young Serif', monospace;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+div > img {
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+div > p {
+    font-family: 'Young Serif', monospace;
+    text-align: center;
+
+}
+
+a {
+    font-family: 'Young Serif', monospace;
+    color: rgb(182, 117, 92);
+    text-decoration: none;
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: rgb(253, 182, 154);
+}
