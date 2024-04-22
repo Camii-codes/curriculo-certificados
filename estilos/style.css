@@ -1,38 +1,38 @@
 @charset "UTF-8";
 
-
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
 
 html, body {
     background-color: white;
+    font-family: monospace; 
 }
 
 div > img {
     padding-top: 60px;
-    width: 500px;
+    width: 100%; 
+    max-width: 500px; 
     display: block;
     margin: auto;
 }
 
 div > p {
-    font-family: monospace;
-    font-size: 15px;
+    font-size: 1.2em; 
     text-align: center;
 }
 
 a {
-    font-family: monospace;
     color: blueviolet;
     text-decoration: none;
-    text-align: center;
 }
 
 button {
     width: 200px;
     height: 30px;
+    font-family: monospace;
     display: block;
     margin: auto;
     border-radius: 5px;
@@ -41,18 +41,6 @@ button {
     background-color: rgba(236, 226, 238, 0.51);
 }
 
-button:hover {
+.button:hover {
     background-color: azure;
-}
-
-@media screen and (min-width: 768px) {
-    div > img {
-        max-width: 700px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    div > img {
-        max-width: 900px;
-    }
 }
